@@ -36,4 +36,12 @@ public class ControllerScript : MonoBehaviour
         Debug.Log(Wert_gesamt);
 
     }
+
+    public void zuruecksetzen()
+    {
+        Wert_1.text = "";
+        Wert_2.text = "";
+        Ergebnis.text = "";
+    }
+
 }
